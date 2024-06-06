@@ -1,0 +1,108 @@
+What is a functional language 
+
+a functional langauge 
+
+1. defines computations as mathematrical functions 
+avoids mutable staet
+
+state 
+1. the information maintained by a compuration 
+
+mutable: 
+
+1. can be changed 
+
+functional language embrace immutability 
+
+
+What is mutability 
+
+The fantasy of mutability: 
+Its easy to reason about: 
+the machine does this, then does this 
+
+
+The reality of mutability 
+Machines are good at complicated maipulation of state 
+Humans are good good at understand it 
+
+
+Imperative programming is opposite of functional programming 
+
+In imperative programming varaibles can change values
+
+For example, we can have something that looks like 
+
+x = x + 1 
+
+This makes no sense in a mathematical sense, which is what functional programming is all about. 
+Think about programming but made more mathmematical! 
+
+
+In functional programming 
+
+Expressions specify what to compute 
+
+1. variables never change values 
+2. functions never have side effects. What does this mean? 
+
+
+The reality of immutability
+
+1. No need to think about state 
+2. Built powerful correct programs. 
+
+
+
+Why learn functional programming languages?
+
+Functional programmign languages predict the future 
+
+
+
+The 5 aspects of learning a programming language> 
+
+
+1. Syntax: how do you write language constructs 
+
+2. Semantics: what do programs mean 
+
+3. Idioms: what are typical patterns for using language features to express you computration 
+
+4. libraries: what facilities does the langage provide as standard 
+
+5. tools: waht do language implementations provide to make you job easier 
+
+
+
+First we are going to start off by learning expressions. 
+
+every expressions has 
+
+1. syntax 
+2. symantics 
+
+type checking (static) produce a type or fail with an error message 
+
+static means at rest. It is checks before the program even runs. 
+
+
+value is an expression that deos not need any further evaluation 
+
+
+ocaml has 
+
+ints, bool and there are other data types 
+
+carrot is the concatenation operator 
+
+For ocaml there are two types of operators; one for floating point number and integers 
+
+all we need to do to get the floating point number version is to put a period after the operator 
+
+
+Ocaml compiler infers types 
+
+1. this is similar to python where python infers the types 
+
+
